@@ -46,7 +46,7 @@ jobs:
     needs: test
     runs-on: ubuntu-latest
     steps:
-      - name: Output information
+      - name: Output informaton
         env:
           PORT: 3000
         run: |        
