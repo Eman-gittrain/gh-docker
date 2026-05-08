@@ -16,8 +16,8 @@ jobs:
     env:
       MONGODB_CONNECTION_PROTOCOL: mongodb+srv
       MONGODB_CLUSTER_ADDRESS: cluster0.ipwfhyc.mongodb.net
-      MONGODB_USERNAME: my-db-user
-      MONGODB_PASSWORD: 3myl@r0se
+      MONGODB_USERNAME: "my-db-user"
+      MONGODB_PASSWORD: "3myl@r0se"
       PORT: 8080
 
     steps:
